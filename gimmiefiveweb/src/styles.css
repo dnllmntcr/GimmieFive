@@ -243,6 +243,10 @@ footer{
     display: flex;
 }
 
+.RegisterName input{
+    margin: 0rem .5rem;
+}
+
 .Registerbutton{
     width: 100%;
     background-color:#D9DDBD !important;
