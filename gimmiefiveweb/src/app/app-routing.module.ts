@@ -1,17 +1,23 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { HomeComponent } from './home/home.component';
-import { LoginComponent } from './login/login.component';
-import { ProductComponent } from './product/product.component';
-import { RegisterComponent } from './register/register.component';
-import { ShopComponent } from './shop/shop.component';
+import { HomeComponent } from './client/user/home/home.component';
+import { LoginComponent } from './client/user/login/login.component';
+import { ProductComponent } from './client/user/product/product.component';
+import { RegisterComponent } from './client/user/register/register.component';
+import { ShopComponent } from './client/user/shop/shop.component';
+import { ContactusComponent } from './client/user/contactus/contactus.component';
+import { ProfileComponent } from './client/user/profile/profile.component';
+import { CartComponent } from './client/user/cart/cart.component';
 
 const routes: Routes = [
-  { path: 'home', component: HomeComponent },
+  { path: '', component: HomeComponent},
   { path: 'login', component: LoginComponent },
   { path: 'product', component: ProductComponent },
   { path: 'register', component: RegisterComponent },
-  { path: 'shop', component: ShopComponent },
+  { path: 'shop', component: ShopComponent},
+  { path: 'contacts', component: ContactusComponent},
+  { path: 'profile', component: ProfileComponent},
+  { path: 'cart', component: CartComponent},
 ];
 
 @NgModule({
