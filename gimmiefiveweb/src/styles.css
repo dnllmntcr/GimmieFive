@@ -235,6 +235,14 @@ footer{
 }
 
 /* Registration */
+.RegisterForm{
+    margin-top: 1rem;
+}
+
+.RegisterName{
+    display: flex;
+}
+
 .Registerbutton{
     width: 100%;
     background-color:#D9DDBD !important;

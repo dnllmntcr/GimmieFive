@@ -15,6 +15,8 @@ import { HeaderComponent } from './client/user/header/header.component';
 import { CreateProductComponent } from './client/admin/create-product/create-product.component';
 import { VariantProductComponent } from './client/admin/variant-product/variant-product.component';
 import { InformationProductComponent } from './client/admin/information-product/information-product.component';
+import { CompleteComponent } from './complete/complete.component';
+
 
 @NgModule({
   declarations: [
@@ -30,7 +32,8 @@ import { InformationProductComponent } from './client/admin/information-product/
     HeaderComponent,
     CreateProductComponent,
     VariantProductComponent,
-    InformationProductComponent
+    InformationProductComponent,
+    CompleteComponent,
   ],
   imports: [
     BrowserModule,
